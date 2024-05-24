@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.FristPage {
+    background-image: url('/images/background.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.SecondPage {
+    background-image: url('/images/background2.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.content {
+    height: 100vh; 
+    position: relative; 
+}
+.content2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.image-button {
+    position: absolute; 
+    top: 20%; 
+    left: 1%; 
+    
+}
+.image-button2{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+}
+.image-button2 img{
+    width: 20vw;
+    max-width: 200px;
+}
+.image-button3{
+    position: absolute;
+
+}
+.image-button3 img{
+    width: 200vw;
+    max-width:500px;
+}
+
+.image-button img {
+    width: 20vw; 
+    max-width: 800px;
+    height: auto;
+    cursor: pointer;
+}
+
+.image-button img:hover {
+    opacity: 0.8; 
+}
+
+.image-button2 img:hover {
+    opacity: 0.8; 
+}
+.image-button3 img:hover {
+    opacity: 0.8; 
+}
+
